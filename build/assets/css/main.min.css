@@ -326,6 +326,46 @@ hr {
   margin: 10px 0 30px;
   height: 0; }
 
+.main-nav {
+  display: flex;
+  margin-top: 20px;
+  padding: 0; }
+  .main-nav li {
+    list-style: none; }
+  .main-nav li:first-child {
+    margin-right: auto;
+    padding: 10px 0; }
+    .main-nav li:first-child a {
+      padding: 0; }
+  .main-nav a {
+    color: white;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-weight: 900;
+    text-transform: uppercase; }
+
+a.download {
+  background: white;
+  color: #00adff;
+  box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2);
+  border-radius: 0px; }
+
+#brands ul {
+  margin: 0;
+  padding: 20px 0;
+  background: white;
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  text-align: center; }
+  @media only screen and (max-width: 800px) {
+    #brands ul {
+      grid-template-columns: repeat(3, auto); } }
+  #brands ul li {
+    list-style: none;
+    width: 100%; }
+
 #features {
   background: #f9f9f9;
   text-align: center;
@@ -421,6 +461,15 @@ hr {
   #download .android:before {
     content: url("../img/playicon.png"); }
 
+#footer {
+  text-align: center;
+  padding: 35px 0; }
+  #footer li {
+    list-style: none; }
+    #footer li a {
+      padding: 0 20px;
+      text-transform: uppercase; }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
@@ -455,43 +504,7 @@ hr {
   #header article {
     width: 80%;
     margin: 0 auto; }
-
-.main-nav {
-  display: flex;
-  margin-top: 20px;
-  padding: 0; }
-  .main-nav li {
-    list-style: none; }
-  .main-nav li:first-child {
-    margin-right: auto;
-    padding: 10px 0; }
-    .main-nav li:first-child a {
-      padding: 0; }
-  .main-nav a {
-    color: white;
-    display: inline-block;
-    border-radius: 4px;
-    padding: 10px 50px;
-    text-decoration: none;
-    font-weight: 900;
-    text-transform: uppercase; }
-
-a.download {
-  background: white;
-  color: #00adff;
-  box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2);
-  border-radius: 0px; }
-
-#brands ul {
-  margin: 0;
-  padding: 20px 0;
-  background: white;
-  display: grid;
-  grid-template-columns: repeat(6, auto);
-  text-align: center; }
-  @media only screen and (max-width: 800px) {
-    #brands ul {
-      grid-template-columns: repeat(3, auto); } }
-  #brands ul li {
-    list-style: none;
-    width: 100%; }
+  #header p {
+    width: 550px;
+    margin: 20px auto;
+    font-size: 17px; }
