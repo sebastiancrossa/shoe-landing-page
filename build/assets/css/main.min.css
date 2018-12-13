@@ -385,15 +385,41 @@ hr {
     background: linear-gradient(140deg, #009efd 0%, #15c9cb 50%, #2afe98 100%);
     color: white;
     border-radius: 0;
-    padding: 20px 80px;
+    padding: 15px 80px;
     font-size: 18px; }
 
 #download {
-  background: #5825ec;
+  background: url("../img/downloadBackground.jpg") no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
   padding: 100px 0;
   margin-top: -70px; }
-  #download h1 {
-    color: white; }
+  #download h2 {
+    color: white;
+    font-size: 68px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 0; }
+  #download p {
+    width: 100%;
+    max-width: 450px;
+    margin: 30px auto;
+    font-weight: 900; }
+  #download .button {
+    position: relative;
+    width: 250px;
+    margin: 0 15px;
+    padding-left: 80px; }
+  #download .apple:before, #download .android:before {
+    position: absolute;
+    display: block;
+    left: 18%;
+    top: 19px; }
+  #download .apple:before {
+    content: url("../img/appleicon.png"); }
+  #download .android:before {
+    content: url("../img/playicon.png"); }
 
 .flex-video {
   height: 0;
