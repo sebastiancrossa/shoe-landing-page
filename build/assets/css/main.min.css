@@ -371,6 +371,30 @@ hr {
 .device {
   border-top: 3px solid #00adff; }
 
+#discount {
+  margin-top: 70px; }
+
+.discountLayout {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .discountLayout .offer {
+    width: 40%;
+    margin: 0 auto; }
+  .discountLayout .offer .button {
+    background: linear-gradient(140deg, #009efd 0%, #15c9cb 50%, #2afe98 100%);
+    color: white;
+    border-radius: 0;
+    padding: 20px 80px;
+    font-size: 18px; }
+
+#download {
+  background: #5825ec;
+  padding: 100px 0;
+  margin-top: -70px; }
+  #download h1 {
+    color: white; }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
@@ -439,7 +463,7 @@ a.download {
   display: grid;
   grid-template-columns: repeat(6, auto);
   text-align: center; }
-  @media only screen and (max-width: 1000px) {
+  @media only screen and (max-width: 800px) {
     #brands ul {
       grid-template-columns: repeat(3, auto); } }
   #brands ul li {
