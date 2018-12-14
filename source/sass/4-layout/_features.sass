@@ -3,6 +3,9 @@
 	text-align: center
 	position: relative
 	height: 600px
+	
+	@media only screen and (max-width: 961px)
+			height: auto
 
 	&:after
 		bottom: 0
@@ -24,8 +27,8 @@
 	grid-template-columns: repeat(3, auto)
 	grid-gap: 30px
 
-	@media only screen and (max-width: 1200px)
-		grid-template-columns: repeat(2, auto)
+	@media only screen and (max-width: 680px)
+		grid-template-columns: repeat(1, auto)
 		margin: 0 50px
 
 .feature-card
