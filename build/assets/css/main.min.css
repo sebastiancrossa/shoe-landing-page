@@ -459,7 +459,8 @@ a.download {
   @media only screen and (max-width: 680px) {
     #download {
       margin-top: 75px;
-      padding: 60px; } }
+      padding: 60px;
+      background: url("../img/downloadBackgroundSmall.jpg") no-repeat; } }
   #download h2 {
     color: white;
     font-size: 68px;
@@ -521,6 +522,7 @@ a.download {
 #header {
   background: url("../img/heroBackground.jpg") no-repeat;
   background-size: cover;
+  background-position: center;
   height: 700px;
   color: white;
   text-align: center;
