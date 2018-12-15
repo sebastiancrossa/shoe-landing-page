@@ -355,6 +355,44 @@ a.download {
   box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2);
   border-radius: 0px; }
 
+li.nav-toggle {
+  display: none; }
+  li.nav-toggle a {
+    padding-right: 0; }
+
+.responsive-nav {
+  display: flex; }
+
+@media screen and (max-width: 750px) {
+  li.nav-toggle {
+    display: block;
+    z-index: 100; }
+  .responsive-nav {
+    display: none; }
+  .responsive-nav.unfold {
+    display: block;
+    width: 100%;
+    background: #1f1f1f;
+    position: absolute;
+    padding-top: 40px;
+    top: 0;
+    right: 0; }
+  .responsive-nav.unfold li {
+    display: block; }
+  .responsive-nav.unfold a {
+    padding: 40px;
+    display: block;
+    text-align: center; }
+  .responsive-nav.unfold a:hover {
+    transform: translate(0);
+    color: #00adff; }
+  .responsive-nav.unfold a.download {
+    background: inherit;
+    color: white;
+    margin-left: 0; }
+  .responsive-nav.unfold a.download:hover {
+    color: #00adff; } }
+
 #brands ul {
   margin: 0;
   padding: 20px 0;
